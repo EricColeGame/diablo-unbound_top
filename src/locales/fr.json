@@ -1,1 +1,479 @@
-{}
+{
+  "site": {
+    "name": "Diablo Unbound Wiki",
+    "shortName": "Diablo Unbound",
+    "tagline": "Classes, donjons, butin et actualités Gamefound",
+    "description": "Explorez Diablo Unbound, un jeu de donjon coopératif sur table sous licence officielle pour 1 à 4 joueurs. Découvrez les classes, le butin, les boss et les actualités Gamefound.",
+    "legalNotice": "Wiki de fans indépendant. Diablo et les marques associées appartiennent à leurs propriétaires respectifs."
+  },
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mécaniques",
+    "modes": "Modes",
+    "characters": "Personnages",
+    "items": "Objets",
+    "community": "Communauté",
+    "release": "Sortie",
+    "home": "Accueil",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki Diablo Unbound — Classes, gameplay, butin et actualités Gamefound",
+      "description": "Explorez Diablo Unbound avec des guides sur les classes de personnages, les combats sur table, le butin, les boss, la structure de campagne et le lancement de Gamefound au premier trimestre 2027."
+    },
+    "hero": {
+      "eyebrow": "Jeu de société coopératif Dark Fantasy",
+      "title": "Diablo Unbound Wiki",
+      "description": "Explorez Diablo Unbound, un jeu de donjon coopératif sur table sous licence officielle pour 1 à 4 joueurs. Découvrez les classes de personnages, les arbres de compétences, le butin, les rencontres dans les donjons, les boss et la prochaine campagne Gamefound.",
+      "stats": [
+        "1 à 4 joueurs pris en charge",
+        "4 classes annoncées",
+        "9 niveaux de donjon de campagne",
+        "Financement participatif du premier trimestre 2027"
+      ],
+      "primaryCta": "Campagne Gamefound",
+      "secondaryCta": "Page officielle du projet",
+      "tertiaryCta": "Guide du débutant",
+      "videoLabel": "Bande-annonce officielle"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout afficher"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre voyage Diablo Unbound",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Commencez par la boucle principale : choisissez un héros, construisez le donjon, résolvez le combat et emportez le butin dans le combat contre le boss."
+        },
+        {
+          "number": "2",
+          "title": "Choisissez votre classe",
+          "description": "Comparez le barbare, le voleur, la sorcière et le paladin par rôle de combat, style de ressources et adéquation au groupe."
+        },
+        {
+          "number": "3",
+          "title": "Planifiez votre progression",
+          "description": "Comprenez les arbres de compétences, les améliorations d'équipement et les choix de respec de la phase de ville avant le prochain donjon."
+        },
+        {
+          "number": "4",
+          "title": "Apprenez les bases du combat",
+          "description": "Utilisez un feu concentré, un timing défensif et une discipline en matière de ressources pour atteindre chaque boss d'acte prêt à se battre."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendance actuelle",
+      "quickLinks": [
+        "Guide du débutant",
+        "Rôles de classe",
+        "Boucle de donjon",
+        "Priorités de butin"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant Diablo Unbound",
+          "description": "Commencez par la configuration, le déroulement des tours, la sélection des classes et les habitudes de première session qui font avancer une campagne.",
+          "href": "/guide/diablo-unbound-beginner-guide"
+        },
+        {
+          "badge": "Classes",
+          "title": "Classes de personnages",
+          "description": "Comparez les quatre héros annoncés et les rôles qu’ils apportent à une table coopérative.",
+          "href": "/characters/diablo-unbound-character-classes"
+        },
+        {
+          "badge": "Règles",
+          "title": "Comment jouer",
+          "description": "Suivez la boucle d'exploration, de combat, de butin et de boss depuis la configuration de la table jusqu'à la rencontre finale.",
+          "href": "/guide/diablo-unbound-how-to-play"
+        },
+        {
+          "badge": "Mécaniques",
+          "title": "Mécaniques des jeux de société",
+          "description": "Découvrez comment la construction de deck, les lancers de dés, les arbres de compétences, les phases de ville et le butin risque-récompense s'articulent.",
+          "href": "/mechanics/diablo-unbound-board-game-mechanics"
+        },
+        {
+          "badge": "Butin",
+          "title": "Système de butin",
+          "description": "Apprenez les niveaux de rareté, les priorités d’affixes et les habitudes de farm ciblé qui transforment le butin en puissance.",
+          "href": "/items/diablo-unbound-loot-system"
+        },
+        {
+          "badge": "Combat",
+          "title": "Système de combat",
+          "description": "Planifiez l’entrée en combat, les pics de ressources, les groupes d'élite et les phases de boss sans perdre le tempo de la table.",
+          "href": "/mechanics/diablo-unbound-combat-system"
+        },
+        {
+          "badge": "Coopérative",
+          "title": "Mode coopératif",
+          "description": "Organisez un groupe de 1 à 4 joueurs, répartissez les tâches sur la table et gardez les décisions de butin claires entre les tours.",
+          "href": "/modes/diablo-unbound-cooperative-mode"
+        },
+        {
+          "badge": "Sortie",
+          "title": "Date de sortie",
+          "description": "Suivez les annonces officielles, la campagne Gamefound du premier trimestre 2027 et le calendrier de lancement.",
+          "href": "/release/diablo-unbound-release-date"
+        },
+        {
+          "badge": "Achat",
+          "title": "Guide de précommande",
+          "description": "Comparez les éditions, vérifiez les listes officielles et comprenez ce que comprend chaque niveau de contribution.",
+          "href": "/release/diablo-unbound-preorder"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu’est-ce que Diablo Unbound ?",
+      "paragraphs": [
+        "Diablo Unbound est un jeu de donjon coopératif sous licence officielle développé par Glass Cannon Unplugged avec Blizzard Entertainment. Un à quatre joueurs choisissent un héros, assemblent un donjon modulaire à partir de tuiles, de familles de monstres et de boss, puis mènent une campagne en trois actes conçue pour des rencontres répétables.",
+        "Chaque donjon suit un rythme d'exploration, de combat, de butin et de boss. Les decks de classe et les arbres de compétences déterminent ce qu'un champion peut faire, l'équipement aléatoire transmet le pouvoir d'un niveau à l'autre et les phases de ville fournissent des améliorations et des décisions de respec. La campagne s'étend sur neuf niveaux de donjon, avec des batailles finales de Torment suivant l'histoire principale et une campagne Gamefound prévue pour le premier trimestre 2027."
+      ],
+      "stats": [
+        {
+          "label": "Joueurs",
+          "value": "1 à 4"
+        },
+        {
+          "label": "Classes",
+          "value": "4"
+        },
+        {
+          "label": "Donjons de campagne",
+          "value": "9"
+        },
+        {
+          "label": "Actes",
+          "value": "3"
+        },
+        {
+          "label": "Format",
+          "value": "Jeu de table"
+        },
+        {
+          "label": "Gamefound",
+          "value": "Q1 2027"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez le wiki Diablo Unbound",
+      "description": "Parcourez huit guides ciblés couvrant la boucle pour débutants, les classes, le combat, le butin, les boss, Torment et la route vers Gamefound.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Diablo Unbound",
+          "description": "Apprenez la configuration de la table, le déroulement des tours, le jeu en solo et la structure de la campagne en trois actes avant votre première session.",
+          "href": "/guide/diablo-unbound-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Choisissez une classe, préparez les tuiles du donjon et configurez les decks de butin et de boss partagés."
+            },
+            {
+              "label": "2",
+              "detail": "Apprenez le rythme de l'exploration, du combat, du pillage et du boss avant d'ajouter de la complexité à la campagne."
+            },
+            {
+              "label": "3",
+              "detail": "Attribuez des rôles à la table pour que l'activation des monstres, les tirages de butin et le suivi des actes restent clairs."
+            },
+            {
+              "label": "4",
+              "detail": "Exécutez un acte comme tutoriel, puis continuez avec la campagne complète en trois actes."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guide des classes de Diablo Unbound",
+          "description": "Comparez le barbare, le voleur, la sorcière et le paladin, y compris leurs arbres de compétences, leurs rôles dans le groupe et leurs chemins de progression.",
+          "href": "/characters/diablo-unbound-character-classes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Barbare",
+              "detail": "Cogneur de première ligne avec un kit de mêlée durable et une pression de contrôle des monstres."
+            },
+            {
+              "label": "Voleur",
+              "detail": "Spécialiste des armes agiles, conçues pour la précision, les dégâts en rafale et le repositionnement."
+            },
+            {
+              "label": "Sorcière",
+              "detail": "Lanceur élémentaire qui élimine les groupes et contrôle les combats de donjons bondés."
+            },
+            {
+              "label": "Paladin",
+              "detail": "Guerrier sacré avec des outils de durabilité et de support de fête pour des parties plus longues."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guide de gameplay de Diablo Unbound",
+          "description": "Suivez la boucle d'exploration, de combat, de butin et de boss à travers des donjons modulaires, des familles de monstres et des phases de ville.",
+          "href": "/guide/diablo-unbound-how-to-play",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Choisissez la composition des classes, le donjon, les familles de monstres et le boss avant de mettre en scène la table."
+            },
+            {
+              "label": "2",
+              "detail": "Construisez uniquement l'acte en cours et gardez les decks de monstres triés pour une activation rapide."
+            },
+            {
+              "label": "3",
+              "detail": "Concentrez-vous sur un groupe à la fois et dépensez des ressources sur la menace actuelle."
+            },
+            {
+              "label": "4",
+              "detail": "Utilisez les phases de ville pour améliorer vos compétences, trier le butin et respec avant la prochaine descente."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Compétences et builds de Diablo Unbound",
+          "description": "Planifiez des arbres de compétences, des synergies d'équipement et des choix de respec qui maintiennent un champion efficace du premier donjon à Torment.",
+          "href": "/characters/diablo-unbound-character-builds",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Moteur de dégâts de base – concentrez vos choix de compétences et d’équipement sur un moyen fiable d’éliminer les ennemis."
+            },
+            {
+              "label": "A",
+              "detail": "Couche de survie : ajoutez de la mobilité ou une réduction des dégâts avant que le boss d'acte ne teste le groupe."
+            },
+            {
+              "label": "B",
+              "detail": "Boucle de ressources : associez les générateurs aux dépenseurs pour que les champions continuent d'agir pendant de longs combats."
+            },
+            {
+              "label": "C",
+              "detail": "Réglage de la ville : utilisez les mises à niveau et la respec pour corriger les emplacements faibles avant la prochaine descente."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Butin et équipement de Diablo Unbound",
+          "description": "Comprenez les emplacements d'équipement, les niveaux de rareté, les priorités d'affixes et les décisions de butin qui confèrent du pouvoir tout au long d'une partie.",
+          "href": "/items/diablo-unbound-loot-system",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Emplacements",
+              "detail": "Donnez la priorité aux armes et aux bijoux pour les dégâts, aux armures pour la survie et aux bottes pour la mobilité."
+            },
+            {
+              "label": "Rareté",
+              "detail": "Inspectez les affixes avant leur rareté ; un objet rare avec de bons jets peut surpasser un légendaire médiocre."
+            },
+            {
+              "label": "Affixes",
+              "detail": "Faites correspondre les jets à la compétence principale du champion, à la boucle de ressources et aux lacunes défensives."
+            },
+            {
+              "label": "Mises à niveau",
+              "detail": "Améliorez d'abord l'arme lorsque les dégâts s'arrêtent et l'armure en premier lorsque les morts augmentent."
+            },
+            {
+              "label": "Recyclage",
+              "detail": "Conservez des pièces de comparaison pour chaque emplacement et recyclez le matériel de rechange qu’aucun build ne peut utiliser."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Boss et monstres de Diablo Unbound",
+          "description": "Préparez-vous à affronter des vagues de monstres, des groupes d'élite et des boss avec des tactiques basées sur les rôles et une discipline en matière de ressources.",
+          "href": "/mechanics/diablo-unbound-combat-system",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Hordes",
+              "detail": "Éliminez efficacement les groupes de monstres ; un feu concentré empêche le plateau d’être inondé."
+            },
+            {
+              "label": "Élites",
+              "detail": "Lisez les affixes comme des énigmes tactiques et repositionnez-vous avant que la pression ne monte."
+            },
+            {
+              "label": "Boss",
+              "detail": "Enregistrez une réponse défensive et une fenêtre de burst pour la rencontre finale de chaque acte."
+            },
+            {
+              "label": "Familles",
+              "detail": "Vérifiez les synergies des familles de monstres avant de vous engager afin que le groupe puisse planifier des contre-attaques."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Mode Torment de Diablo Unbound",
+          "description": "Construisez un groupe Torment autour de champions entièrement équipés et affrontez n'importe quel boss dans sa forme ultime.",
+          "href": "/modes/diablo-unbound-campaign-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Campagne",
+              "detail": "Terminez trois actes et neuf niveaux de donjon pour créer un groupe entièrement équipé."
+            },
+            {
+              "label": "Torment",
+              "detail": "Affrontez n'importe quel boss dans sa forme ultime avec des champions adaptés à la pression de fin de partie."
+            },
+            {
+              "label": "Rôles",
+              "detail": "Couvrez la ligne de front, les dégâts de zone, le burst mono-cible et le soutien avant la revanche."
+            },
+            {
+              "label": "Planification",
+              "detail": "Planifiez des pics de ressources et des outils défensifs autour des phases d’escalade des boss."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Date de sortie et mises à jour de Diablo Unbound",
+          "description": "Suivez la campagne Gamefound du premier trimestre 2027, les annonces officielles, les révélations de gameplay et les actualités des extensions.",
+          "href": "/release/diablo-unbound-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Q1 2027",
+              "detail": "Fenêtre de financement participatif annoncée pour la campagne Gamefound."
+            },
+            {
+              "label": "Gamefound",
+              "detail": "Suivez la page de pré-lancement pour connaître les niveaux de contribution, les objectifs de financement et les dates de campagne."
+            },
+            {
+              "label": "Spiel 2026",
+              "detail": "Le projet de table a été dévoilé au Spiel Essen en octobre 2026."
+            },
+            {
+              "label": "Extensions",
+              "detail": "Des classes et du contenu supplémentaires sont planifiés via des objectifs de financement et de futures extensions."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sur Diablo Unbound",
+      "description": "Réponses aux questions courantes sur Diablo Unbound, sa campagne sur table et le lancement de Gamefound.",
+      "items": [
+        {
+          "question": "Qu’est-ce que Diablo Unbound ?",
+          "answer": "Diablo Unbound est un jeu de donjon coopératif sous licence officielle de Glass Cannon Unplugged et Blizzard Entertainment. Il prend en charge un à quatre joueurs et combine des decks de classe, des combats par dés, des donjons modulaires, du butin et des combats de boss."
+        },
+        {
+          "question": "Combien de joueurs peuvent jouer à Diablo Unbound ?",
+          "answer": "Diablo Unbound prend en charge un à quatre joueurs dans un jeu entièrement coopératif. Les jeux solo utilisent les mêmes systèmes de classe et de rencontre, tandis que les groupes plus importants se partagent les tâches de première ligne, de dégâts, de contrôle et de soutien."
+        },
+        {
+          "question": "Quelles classes sont disponibles dans Diablo Unbound ?",
+          "answer": "La liste de départ annoncée comprend le barbare, le voleur, la sorcière et le paladin. Chaque classe possède son propre arbre de compétences, son ensemble de capacités et son chemin de progression, avec davantage de classes planifiées via des objectifs de financement et des extensions."
+        },
+        {
+          "question": "Quelle est la durée d’une campagne Diablo Unbound ?",
+          "answer": "La campagne principale s'étend sur trois actes, chacun contenant trois niveaux de donjon et un boss. Un seul donjon est conçu pour durer environ 60 à 90 minutes, avec des phases de ville entre les descentes pour les améliorations, le tri du butin et les décisions de respec."
+        },
+        {
+          "question": "Quand a lieu la campagne Diablo Unbound Gamefound ?",
+          "answer": "La campagne Diablo Unbound Gamefound est prévue pour le premier trimestre 2027. La page officielle du projet Glass Cannon Unplugged et la page de pré-lancement de Gamefound sont les endroits à suivre pour les dates de campagne, les niveaux de contribution et les objectifs de financement."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à explorer Diablo Unbound ?",
+      "description": "De votre première exploration de donjon à la campagne Gamefound du premier trimestre 2027, notre wiki communautaire suit les classes, le butin, les boss et les règles que vous devez connaître.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Voir sur Gamefound"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides Diablo Unbound",
+    "overviewDescription": "Apprenez à jouer à Diablo Unbound avec des règles pour débutants, des procédures de configuration, des conseils stratégiques et un aperçu complet de la campagne en trois actes."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques Diablo Unbound",
+    "overviewDescription": "Maîtrisez le combat Diablo Unbound, l'ordre du tour, les lancers de dés, la gestion des ressources et les systèmes de progression avant votre prochaine partie de donjon."
+  },
+  "modes": {
+    "overviewTitle": "Modes de jeu Diablo Unbound",
+    "overviewDescription": "Comparez les modes solo, coopératif, multijoueur, nombre de joueurs et campagne pour choisir la configuration de table adaptée à votre groupe."
+  },
+  "characters": {
+    "overviewTitle": "Personnages Diablo Unbound",
+    "overviewDescription": "Comparez le barbare, le voleur, la sorcière et le paladin, puis planifiez les capacités des héros, les builds des personnages et les rôles du groupe pour chaque acte."
+  },
+  "items": {
+    "overviewTitle": "Objets Diablo Unbound",
+    "overviewDescription": "Parcourez les armes, l'équipement, les règles de butin, les objets légendaires et les priorités de mise à niveau de Diablo Unbound qui maintiennent l'efficacité de votre champion."
+  },
+  "community": {
+    "overviewTitle": "Communauté Diablo Unbound",
+    "overviewDescription": "Suivez les discussions sur Diablo Unbound Reddit, les mises à jour de la communauté des jeux de société et les interviews des développeurs à l'approche de la campagne Gamefound."
+  },
+  "release": {
+    "overviewTitle": "Sortie Diablo Unbound",
+    "overviewDescription": "Suivez la date de sortie de Diablo Unbound, la campagne Gamefound et Kickstarter, les détails de la précommande, le prix et les nouvelles de la bande-annonce officielle."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Afficher tous les codes",
+    "playOnRoblox": "Jouez sur Roblox",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Prochaines étapes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lecture connexe",
+    "relatedGuides": "Guides connexes",
+    "readMore": "En savoir plus",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !"
+  },
+  "footer": {
+    "aboutTitle": "Diablo Unbound Wiki",
+    "about": "Diablo Unbound Wiki est un guide indépendant créé par des fans couvrant les classes de personnages, les explorations de donjons, le butin, les boss et la prochaine campagne Gamefound pour les joueurs de table nouveaux et vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Légal",
+    "copyright": "2026 Diablo Unbound Wiki. Non affilié à Blizzard Entertainment ni à Glass Cannon Unplugged.",
+    "description": "Jeu de donjon coopératif dark fantasy pour 1 à 4 joueurs. 4 classes, 9 donjons de campagne, campagne Gamefound au premier trimestre 2027.",
+    "playGame": "Page officielle du projet",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Campagne Gamefound",
+    "beginnerGuide": "Guides pour débutants",
+    "raceGuides": "Classes de personnages",
+    "bossGuides": "Mécaniques de combat",
+    "buildGuide": "Objets et butin",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}
