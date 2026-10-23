@@ -1,0 +1,113 @@
+export const metadata = {
+  title: "Sistema de progresión de Diablo Unbound: niveles, botín y el bucle del endgame",
+  description: "Un desglose práctico del sistema de progresión de Diablo Unbound: cómo suelen encajar el leveo, los niveles de botín, las decisiones de build y los bucles de endgame en un ARPG.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+Todo RPG de acción vive o muere por la misma pregunta: ¿vale la pena la subida? El **sistema de progresión de Diablo Unbound** es la mecánica que decide si tu primera hora se siente como descubrimiento o como un tutorial que estás tolerando, y también es la parte del proyecto sobre la que los jugadores saben menos actualmente. Como los detalles verificados aún son escasos, lo inteligente es entender cómo funciona la progresión en este género y luego usar ese marco para juzgar el **sistema de progresión de Diablo Unbound** en el momento en que llegue información real.
+
+Esta guía desglosa ese marco: las capas sobre las que se construye un sistema de progresión de ARPG moderno, las señales de ritmo que separan una curva satisfactoria de un grindeo, y cómo planificar tu primer personaje para no tener que rehacerlo desde cero por frustración.
+
+**Una advertencia rápida antes de empezar:** todavía no han aparecido notas de parche ampliamente difundidas, árboles de habilidades extraídos de datos ni análisis profundos de los desarrolladores sobre el sistema de progresión de Diablo Unbound. Los reportes de la comunidad han señalado una ventana de crowdfunding en [GameFound, la plataforma de financiación colectiva centrada en juegos de mesa](https://gamefound.com/), en el primer trimestre de 2027, lo que sugiere que los detalles mecánicos concretos se afianzarán cerca de esa ventana. Todo lo que sigue es un marco para evaluar el sistema, no una hoja de especificaciones filtrada.
+
+## Por qué el sistema de progresión de Diablo Unbound importa más que cualquier característica aislada
+
+La progresión es la columna vertebral de un ARPG. La sensación del combate hace que los jugadores entren por la puerta; la progresión es lo que los mantiene conectándose en la tercera semana. Un sistema bien construido cumple cuatro funciones a la vez: enseña las reglas del juego mediante la práctica, hace que cada objeto soltado sienta que podría importar, ofrece a los jugadores bifurcaciones significativas en el camino y crea una razón para empezar de nuevo con otra build.
+
+Cuando cualquiera de esas funciones falla, toda la experiencia se resiente. Una curva de niveles generosa sin decisiones significativas se convierte en un pasillo. Un árbol de habilidades profundo con un coste de reinicio de habilidades (respec) punitivo se convierte en una trampa. Un botín que escala demasiado rápido convierte el endgame en una excursión de compras donde la única mejora es un número más grande.
+
+| Qué observar | Por qué importa | Señal positiva | Señal de alarma |
+|---|---|---|---|
+| Forma de la curva de niveles | Controla la rapidez con la que accedes al conjunto completo de herramientas | Las nuevas habilidades llegan de forma constante durante la campaña | Largas zonas muertas sin desbloqueos |
+| Reglas de respec | Decide si experimentar resulta barato o aterrador | Respecs gratis o de bajo coste durante el leveo | Decisiones permanentes tomadas antes de entender los sistemas |
+| Profundidad del pool de afijos | Impulsa la diversidad de builds y la emoción del botín | Muchos afijos que cambian el comportamiento, no solo las estadísticas | Afijos de aumento de daño dominando cada ranura |
+| Escalera del endgame | Da dirección al grindeo | Dificultad escalonada con recompensas claras | Un único bucle repetible con recompensas planas |
+| Cadencia de reinicios | Determina la rejugabilidad a largo plazo | Reinicios con cosméticos o ventajas de cuenta que se conservan | Reinicios que borran el progreso sin nada persistente |
+
+Esa tabla es la lista de comprobación que hay que aplicar al sistema de progresión de Diablo Unbound cuando lleguen imágenes de gameplay y documentación oficial.
+
+## Las capas del sistema de progresión de Diablo Unbound
+
+La mayoría de los ARPG apilan cinco o seis capas de progresión unas sobre otras. La pregunta de diseño interesante no es si esas capas existen, sino cuáles soportan el peso y cuáles son solo condimento.
+
+| Capa | Qué gobierna | Pregunta que responde al jugador |
+|---|---|---|
+| Nivel de personaje | Estadísticas base, desbloqueo de habilidades, requisitos de equipo | "¿Cuánto más fuerte soy ahora mismo?" |
+| Elecciones de habilidad y talento | Identidad de la build y estilo de juego | "¿Qué tipo de personaje estoy construyendo?" |
+| Equipo y afijos | Poder multiplicativo y utilidad | "¿Qué debería estar farmeando?" |
+| Fabricación y mejoras | Control sobre la aleatoriedad | "¿Cómo arreglo una tirada mala?" |
+| Metaprogresión a nivel de cuenta | Poder de largo recorrido fuera de una sola partida | "¿Qué se conserva cuando reinicio?" |
+| Progresión basada en reinicios | Reinicios de temporada o por partida | "¿Por qué empezar de nuevo?" |
+
+Dos notas estructurales merece la pena tener en cuenta cuando por fin se muestre en detalle el sistema de progresión de Diablo Unbound.
+
+- **Las capas superpuestas crean profundidad; las capas redundantes crean hinchazón.** Si el equipo y la progresión de cuenta entregan ambos los mismos aumentos planos de estadísticas, uno de los dos no está haciendo nada interesante.
+- **La economía del respec es el ajuste de dificultad oculto.** Los respecs baratos fomentan la experimentación y perdonan los errores. Los respecs caros elevan las apuestas pero castigan a los jugadores que eligen antes de entender los sistemas. Ninguno está mal: el error es no dejar claro cuál de los dos estás lanzando.
+
+## Ritmo: cómo se siente realmente una curva de progresión sana
+
+El ritmo es la parte de un sistema de progresión que los jugadores sienten antes de poder nombrarla. Una buena curva alterna entre *ampliar* —darte más opciones— y *profundizar* —permitirte llevar una opción más lejos—. Los juegos que solo amplían se sienten superficiales; los juegos que solo profundizan se sienten estrechos.
+
+| Fase | Qué estás haciendo | Señal de progresión | Riesgo si se acelera |
+|---|---|---|---|
+| Incorporación | Aprender controles, flujo de recursos, señales de los enemigos | Desbloqueos frecuentes y cambios tempranos de equipo | Los jugadores nunca conectan con el personaje |
+| Formación de la primera build | Comprometerte con un tipo de daño o estilo de juego | Una habilidad característica entra en juego | Decisiones tomadas antes de entender los sistemas |
+| Refinamiento | Cubrir huecos en defensa, movilidad y recursos | Búsqueda de afijos y pequeños multiplicadores | Estancamiento de poder que se siente como un muro |
+| Entrada al endgame | Poner a prueba la build contra contenido escalonado | Niveles de dificultad y recompensas dirigidas | Pico de dificultad sin un siguiente paso claro |
+| Optimización | Perseguir tiradas raras y sinergia perfecta | Objetos de persecución de largo recorrido y clasificaciones | Grindeo sin progreso visible |
+
+La experiencia de los jugadores con sistemas similares sugiere que la fase que más importa es la tercera. Ahí es donde un juego o respeta tu tiempo con farmeo dirigido o lo desperdicia con pura aleatoriedad. Si el sistema de progresión de Diablo Unbound acierta en ese tramo intermedio, el resto tiende a sostenerse.
+
+## Botín, builds y la verdadera moneda de la progresión
+
+En la práctica, el equipo es la moneda que gasta la progresión. Los niveles son finitos; los afijos no. La salud de un sistema de progresión suele depender de si el pool de botín apoya muchas builds viables o si canaliza a todos hacia las mismas tres.
+
+| Arquetipo | Curva de progresión | Dependencia del equipo | Trampa típica |
+|---|---|---|---|
+| Peleador cuerpo a cuerpo | Fuerte al principio, necesita defensas después | Alta: los afijos de supervivencia son clave | Decae cuando el daño supera la mitigación |
+| Lanzador a distancia | Inicio más lento, se dispara con equipo de recursos | Media: importan los recursos y la velocidad de lanzamiento | Se siente frágil hasta que llegan las capas defensivas |
+| Invocador / esbirros | Subida constante y de baja varianza | Media-alta: el escalado de las mascotas es opaco | Estadísticas de mascota ocultas tras fórmulas poco claras |
+| Híbrido / utilidad | El más lento en madurar | Muy alta: necesita afijos superpuestos | Se dispersa demasiado como para limpiar contenido |
+
+Tres reglas prácticas se aplican a casi cualquier sistema de botín de ARPG, incluida la forma que adopte el sistema de progresión de Diablo Unbound:
+
+1. **Los afijos que cambian el comportamiento superan a los afijos de puro número.** Un objeto que altera cómo funciona una habilidad es memorable; un +12% a un número no lo es.
+2. **El farmeo dirigido respeta el tiempo.** Los sistemas que te permiten inclinar las tiradas hacia una ranura o un tipo de daño reducen el dolor de la mala suerte.
+3. **El suelo de fabricación importa más que el techo.** Los jugadores necesitan una forma fiable de rescatar un objeto decente pero defectuoso, o la persecución se convierte en puro juego de azar.
+
+## Planificar tu primer personaje en torno al sistema de progresión
+
+Hasta que lleguen los detalles oficiales, el enfoque más seguro es un primer personaje construido para ser *adaptable* en lugar de optimizado. Aquí tienes una secuencia que funciona en la mayoría de los ARPG.
+
+1. **Elige un tipo de daño con amplio soporte.** Escoge lo que el juego parezca respaldar con más equipo y pasivas superpuestos.
+2. **Sube de nivel primero con una solución de movilidad y recursos.** La movilidad y la generación de recursos hacen más rápido todo lo que viene después.
+3. **Aplaza los compromisos permanentes.** Espera antes de tomar decisiones irreversibles hasta haber visto la lista completa de habilidades y el pool de afijos.
+4. **Acumula materiales de mejora desde pronto.** La moneda de fabricación ahorrada en el primer tramo vale más una vez que sabes hacia qué estás construyendo.
+5. **Prueba una habilidad alternativa antes del endgame.** Una prueba corta revela si tu estilo de juego elegido sobrevive al contacto con contenido más duro.
+
+| Prioridad | Por qué va primero | Tiempo típico invertido |
+|---|---|---|
+| Movilidad | Un desplazamiento más rápido multiplica cualquier otra ganancia | Bajo |
+| Sostenibilidad de recursos | Elimina los tiempos muertos entre combates | Bajo-medio |
+| Habilidad de daño principal | Define la identidad de la build | Medio |
+| Capa defensiva | Evita muertes en las transiciones de dificultad | Medio |
+| Objetos de persecución | Poder de largo recorrido y finalización de la build | Alto |
+
+Los reportes de la comunidad sobre lanzamientos de ARPG comparables señalan sistemáticamente el mismo error: los jugadores se comprometen con una guía de build antes de entender su propia economía de recursos y luego chocan contra un muro en el primer salto de dificultad. Leer el sistema de progresión de Diablo Unbound como un conjunto de capas que interactúan —y no como una única respuesta de "mejor build"— evita esa trampa.
+
+## Preguntas frecuentes
+
+**¿Está ya detallado oficialmente el sistema de progresión de Diablo Unbound?**
+No en ninguna forma ampliamente verificada. La información pública sigue siendo limitada, y los reportes de la comunidad sobre una ventana de crowdfunding en el primer trimestre de 2027 son la señal temporal más clara hasta ahora. Trata cualquier afirmación mecánica detallada que veas circulando como no confirmada hasta que material oficial la respalde.
+
+**¿Incluirá temporadas o reinicios periódicos?**
+Se desconoce. La progresión basada en reinicios se ha convertido en estándar en el género porque mantiene significativa la curva de niveles, pero no se ha confirmado si el sistema de progresión de Diablo Unbound adopta ese modelo —o una alternativa persistente a nivel de cuenta—.
+
+**¿Deberían los jugadores nuevos seguir una guía de build de inmediato?**
+En general, no. Las guías están escritas para jugadores que ya entienden el flujo de recursos y las prioridades de afijos. Un primer personaje construido por ti mismo te enseña cómo se comporta realmente el sistema de progresión de Diablo Unbound, lo que hace que cada guía posterior sea más fácil de evaluar.
+
+**¿Qué importancia tiene el botín en comparación con el leveo?**
+En la mayoría de los ARPG, el leveo es el tutorial y el botín es el juego. Espera que el equipo, los afijos y la fabricación carguen con la mayor parte del peso de la progresión a largo plazo, con el nivel de personaje actuando como la puerta que desbloquea el conjunto de herramientas.
+
+La conclusión: juzga el sistema de progresión de Diablo Unbound por su ritmo, sus decisiones y su recompensa. Si ofrece desbloqueos constantes, bifurcaciones significativas y un farmeo que respeta tu tiempo, los números que haya detrás apenas importan.

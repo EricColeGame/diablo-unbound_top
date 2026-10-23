@@ -6,7 +6,18 @@
     "description": "Explore Diablo Unbound, an officially licensed cooperative tabletop dungeon battler for 1–4 players. Learn classes, loot, bosses, and Gamefound news.",
     "legalNotice": "Independent fan wiki. Diablo and related trademarks belong to their respective owners."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "characters": "Characters",
+    "items": "Items",
+    "community": "Community",
+    "release": "Release",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Diablo Unbound Wiki — Classes, Gameplay, Loot & Gamefound Updates",
@@ -401,7 +412,34 @@
       "secondary": "View on Gamefound"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Diablo Unbound Guides",
+    "overviewDescription": "Learn how to play Diablo Unbound with beginner rules, setup walkthroughs, strategy advice, and a complete three-act campaign overview."
+  },
+  "mechanics": {
+    "overviewTitle": "Diablo Unbound Mechanics",
+    "overviewDescription": "Master Diablo Unbound combat, turn order, dice rolls, resource management, and progression systems before your next dungeon run."
+  },
+  "modes": {
+    "overviewTitle": "Diablo Unbound Game Modes",
+    "overviewDescription": "Compare solo, cooperative, multiplayer, player count, and campaign modes to choose the right table setup for your group."
+  },
+  "characters": {
+    "overviewTitle": "Diablo Unbound Characters",
+    "overviewDescription": "Compare the Barbarian, Rogue, Sorceress, and Paladin, then plan hero abilities, character builds, and party roles for every act."
+  },
+  "items": {
+    "overviewTitle": "Diablo Unbound Items",
+    "overviewDescription": "Browse Diablo Unbound weapons, equipment, loot rules, legendary items, and upgrade priorities that keep your champion effective."
+  },
+  "community": {
+    "overviewTitle": "Diablo Unbound Community",
+    "overviewDescription": "Follow Diablo Unbound Reddit discussion, board game community updates, and developer interviews as the Gamefound campaign approaches."
+  },
+  "release": {
+    "overviewTitle": "Diablo Unbound Release",
+    "overviewDescription": "Track the Diablo Unbound release date, Gamefound and Kickstarter campaign, preorder details, price, and official trailer news."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -433,8 +471,8 @@
     "vvBuilder": "Gamefound Campaign",
     "beginnerGuide": "Beginner Guides",
     "raceGuides": "Character Classes",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Skill Trees",
+    "bossGuides": "Combat Mechanics",
+    "buildGuide": "Items & Loot",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

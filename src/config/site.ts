@@ -34,6 +34,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.com/invite/Gavkv9GeJW",
     youtube: "https://www.youtube.com/@GlassCannonUnplugged",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "fr", "es"],
   defaultLocale: "en",
 };

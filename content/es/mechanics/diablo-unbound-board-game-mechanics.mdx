@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "Mecánicas del juego de mesa Diablo Unbound explicadas: construcción de mazos, dados y batallas en mazmorras",
+  description: "Cómo funcionan las mecánicas del juego de mesa Diablo Unbound: construcción de mazos, tiradas de dados, árboles de habilidades, mejoras en la fase de pueblo, botín con riesgo y recompensa, y el endgame de Tormento.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+## Las mecánicas del juego de mesa Diablo Unbound de un vistazo
+
+*Diablo: Unbound* es un "batallador de mazmorras" cooperativo para uno a cuatro jugadores de Glass Cannon Unplugged, desarrollado con Blizzard y revelado en Spiel Essen en octubre de 2026. Está prevista una campaña de Gamefound para el primer trimestre de 2027, con el juego llegando más tarde ese mismo año. La propuesta tiene deliberadamente sabor a Diablo: oleadas incesantes de monstruos, equipo que escala y enfrentamientos épicos contra jefes, salvo que te abres camino *hacia abajo* por la mazmorra en lugar de recorrerla sala por sala. Las mecánicas anunciadas del juego de mesa Diablo Unbound ya esbozan un bucle de campaña completo, aunque el reglamento completo sigue sin desvelarse.
+
+| Sistema | Qué hace en la mesa | Por qué importa |
+|---|---|---|
+| Construcción de mazos | Tu mazo de clase define tus opciones; las cartas mejoran a medida que avanzas | Planificación a largo plazo e identidad de build |
+| Tiradas de dados | Resuelven el combate y las habilidades con varianza incorporada | Mantiene los encuentros tensos en lugar de resolubles |
+| Árboles de habilidades | Cada clase avanza por su propia ruta de mejora | Diferencia a los héroes y los estilos de juego |
+| Botín aleatorizado | El equipo que cae varía de una partida a otra | Rejugabilidad y el tirón del "una planta más" |
+| Fase de Pueblo | Tiempo entre mazmorras para mejoras, ordenar botín y reasignar puntos | Permite corregir una build sin empezar de cero |
+| Batallas contra jefes | Combates culminantes contra enemigos poderosos | La mitad "batallador de jefes" del diseño |
+| Modo Tormento | Combates de endgame contra cualquier jefe en su forma definitiva | Mantiene la caja en la mesa después de la campaña |
+
+Lo notable es aquello de lo que el diseño se aleja. En lugar de exploración sobre cuadrícula, la resolución fluye a través de cartas y dados, con la mazmorra actuando como una pista de presión que te empuja hacia el siguiente jefe. Para conocer todos los detalles del anuncio, consulta [la cobertura de Polygon sobre la revelación de Diablo: Unbound](https://www.polygon.com/diablo-unbound-announcement-blizzard-glass-cannon-games/).
+
+## Construcción de mazos y dados: cómo se resuelve el bucle central
+
+El CEO de Glass Cannon Unplugged, Jakub Wiśniewski, describió el diseño como la tensión de enfrentamiento de un batallador de jefes combinada con hordas de monstruos que nunca dan tregua: un juego en el que el grupo lucha hacia abajo en lugar de avanzar a rastras. Mecánicamente, eso significa dos motores funcionando en paralelo: un mazo que define lo que tu héroe puede intentar y dados que deciden si el intento realmente acierta.
+
+| Pregunta en la mesa | La responde la construcción de mazos | La responden los dados |
+|---|---|---|
+| ¿Qué puede intentar mi héroe este turno? | Sí — las cartas definen tus opciones | No |
+| ¿Tiene éxito el intento? | En parte — poder de las cartas y sinergias | Sí — la tirada decide |
+| ¿Cómo de fuerte soy a lo largo de un acto entero? | Sí — la calidad del mazo se acumula | No |
+| ¿Cómo de variable es un solo momento? | No | Sí — la varianza dispara la tensión |
+| ¿Dónde se muestra la habilidad del jugador? | Construcción del mazo, orden de cartas, elección de momento | Evaluación de riesgo y modificadores |
+
+La división da a dos tipos distintos de jugadores algo a lo que agarrarse. Los optimizadores obtienen un puzle de construcción que recompensa la planificación a lo largo de un acto entero, mientras que el resto recibe el drama inmediato de una tirada que puede decantar una pelea. También evita el clásico problema de los juegos de mesa cooperativos en el que un jugador resuelve efectivamente el turno de toda la mesa: nadie puede controlar del todo un dado.
+
+Gran parte de lo que sabemos actualmente sobre las mecánicas del juego de mesa Diablo Unbound proviene del anuncio y no de un reglamento publicado. El número de cartas, los tipos de dados y los pasos exactos de resolución aún no se han detallado, así que toma cualquier regla muy concreta que veas circulando por internet como provisional hasta que lleguen los materiales de la campaña de Gamefound.
+
+## Clases, árboles de habilidades y progresión
+
+Cuatro clases jugables están confirmadas para el lanzamiento: Bárbaro, Pícara, Hechicera y Paladín. Cada una llega con su propio árbol de habilidades, conjunto de habilidades y pista de progresión, y Glass Cannon Unplugged ha dicho que se añadirán clases adicionales mediante objetivos de financiación y futuras expansiones.
+
+| Clase | Rol clásico en Diablo | Confirmado en *Unbound* |
+|---|---|---|
+| Bárbaro | Peleador cuerpo a cuerpo de primera línea | Árbol de habilidades, habilidades y progresión propios |
+| Pícara | Daño ágil a distancia y de precisión | Árbol de habilidades, habilidades y progresión propios |
+| Hechicera | Lanzamiento de hechizos elementales | Árbol de habilidades, habilidades y progresión propios |
+| Paladín | Híbrido sagrado con herramientas de apoyo al grupo | Árbol de habilidades, habilidades y progresión propios |
+
+Con cuatro clases y hasta cuatro jugadores, el primer instinto obvio es un asiento por arquetipo. En grupos más pequeños, alguien acabará cubriendo dos funciones, lo que convierte el árbol de habilidades en la palanca más importante del juego. Un Bárbaro construido puramente para daño puede dejar al grupo sin respuesta defensiva; un Paladín inclinado hacia el apoyo puede tapar muchos huecos.
+
+El sistema de clases es también la ventana más clara a cómo las mecánicas del juego de mesa Diablo Unbound gestionan la progresión. En lugar de una única pista de experiencia, el crecimiento se divide entre lo que tu mazo puede hacer y lo que desbloquea tu árbol: uno mejora tus opciones momento a momento, el otro da forma a tu identidad a largo plazo.
+
+### Por qué la progresión importa entre mazmorras
+
+La progresión no es solo un número que sube. Como la Fase de Pueblo permite reasignar puntos, un árbol de habilidades es una decisión que puedes revisar en lugar de una trampa en la que quedas encerrado. Esa única elección de diseño elimina gran parte de la ansiedad que suele acompañar a las decisiones de build permanentes en los juegos de mesa de campaña.
+
+## La Fase de Pueblo: mejoras, botín y riesgo frente a recompensa
+
+Entre descensos, el grupo entra en una Fase de Pueblo para mejorar habilidades, gestionar el botín y reasignar puntos. Aquí es donde vive el ritmo de la campaña: la mazmorra es la presión y el pueblo es la válvula de escape.
+
+El botín en *Diablo: Unbound* es aleatorio, y el diseño recompensa abiertamente la codicia: asumir mayores riesgos puede producir mayores recompensas. Eso crea una decisión recurrente de tentar a la suerte que se desarrolla tanto dentro de la mazmorra como en la mesa del pueblo.
+
+| Decisión | Ventaja | Desventaja | Consejo práctico |
+|---|---|---|---|
+| Adentrarse más en lugar de volver al pueblo | Más botín y un mazo más fuerte para el jefe del acto | El desgaste se arrastra al combate contra el jefe | Guarda un margen de recursos antes del jefe |
+| Perseguir una oportunidad de botín de alto valor | Equipo que reformula tu build | Acciones desperdiciadas si falla | Arriesga solo cuando la partida ya es estable |
+| Reasignar puntos antes de un jefe | Corrige una build que no funciona | Cuesta tiempo e impulso | Reasigna al inicio de una Fase de Pueblo, no a mitad de acto |
+| Mejorar una habilidad frente a acumular recursos | Pico de poder inmediato | Menos opciones después | Prioriza mejoras que ayuden en todos los encuentros |
+
+Unos cuantos hábitos marcan la diferencia:
+
+- **Trata la Fase de Pueblo como una reunión de planificación.** Decide quién cubre qué función antes de comprar nada.
+- **Acordad un plan contra el jefe antes de la mazmorra final de un acto.** Adaptar una estrategia a mitad de descenso rara vez funciona.
+- **Revisa tu mazo buscando huecos, no solo brillos.** Un mazo lleno de remates sin preparación es un mazo que se atasca.
+- **Reasigna pronto, no tarde.** El momento más barato para corregir una build es la primera visita al pueblo después de detectar el problema.
+
+La Fase de Pueblo es, posiblemente, la pieza de las mecánicas del juego de mesa Diablo Unbound que más lo separa de un simple lanzador de dados. Convierte una secuencia de peleas en una campaña con decisiones que resuenan hacia adelante.
+
+## Estructura de la campaña y el endgame de Tormento
+
+Estructuralmente, el juego abarca tres actos, cada uno compuesto por tres niveles de mazmorra, con poderosos jefes cerrando el acto. Una sola mazmorra dura aproximadamente de 60 a 90 minutos, mientras que un acto completo lleva alrededor de tres a cuatro horas, lo que significa que una campaña completa es un compromiso de varias sesiones.
+
+| Capa | Tiempo requerido | Qué ocurre |
+|---|---|---|
+| Un solo nivel de mazmorra | 60–90 minutos | Un descenso: oleadas de monstruos, botín y decisiones de riesgo |
+| Acto (tres niveles) | Aproximadamente 3–4 horas | Preparación hacia un poderoso encuentro contra un jefe |
+| Campaña completa (tres actos) | Varias sesiones | Nueve niveles en total con equipo y habilidades acumulativos |
+| Tormento (endgame) | Variable | Cualquier jefe, cualquier nivel, en su forma definitiva, ajustado para grupos de endgame |
+
+El modo Tormento es la respuesta a la pregunta que todo juego de mesa de campaña acaba enfrentando: ¿qué pasa cuando ruedan los créditos? Permite a un grupo enfrentarse a cualquier jefe de la caja independientemente de su nivel, en su forma definitiva, equilibrado para personajes que ya han alcanzado el máximo. Es una elección estructural inteligente, porque convierte cada miniatura de jefe en contenido de endgame reutilizable en lugar de un obstáculo puntual.
+
+Para la capa de endgame de las mecánicas del juego de mesa Diablo Unbound, espera que el énfasis pase de la supervivencia a la optimización. Una vez que tu mazo y tu árbol están completos, las decisiones interesantes giran en torno a la secuenciación y la tolerancia al riesgo en lugar de la escasez de recursos, que es exactamente el tipo de puzle que mantiene a un grupo rejugando la misma caja durante meses.
+
+Los informes de la comunidad en foros de juegos de mesa sugieren que el anuncio ha caído bien entre los veteranos del cooperativo, aunque la mayoría espera a la campaña de Gamefound para confirmar el número de componentes y el reglamento completo antes de comprometerse.
+
+## Preguntas frecuentes sobre las mecánicas del juego de mesa Diablo Unbound
+
+### ¿Cuántos jugadores pueden jugar a Diablo Unbound?
+
+De uno a cuatro jugadores, totalmente cooperativo. El diseño gira en torno a un grupo que avanza por las mazmorras juntos, con cada clase aportando un rol distinto.
+
+### ¿El juego usa dados o construcción de mazos?
+
+Ambos. La construcción de mazos gestiona lo que tu héroe puede hacer y cómo se desarrolla tu build a lo largo de una campaña, mientras que los dados resuelven si los intentos individuales tienen éxito. Entender cómo interactúan esos dos sistemas es la clave de las mecánicas del juego de mesa Diablo Unbound en su conjunto.
+
+### ¿Cuánto dura una sesión?
+
+Una sola mazmorra dura unos 60 a 90 minutos. Un acto completo de tres niveles de mazmorra lleva aproximadamente de tres a cuatro horas, así que la mayoría de los grupos dividirán una campaña en varias sesiones.
+
+### ¿Cuándo y dónde puedo comprarlo?
+
+La campaña de Gamefound está programada para el primer trimestre de 2027, con el juego lanzándose más tarde ese mismo año. Seguir la página de preventa es la mejor forma de no perderte las revelaciones de objetivos de financiación, incluidas las clases adicionales.
+
+### ¿Está Diablo Unbound conectado con Diablo 5?
+
+No. Es un lanzamiento de mesa independiente desarrollado por Glass Cannon Unplugged con Blizzard, que se nutre de la historia más amplia de la franquicia en lugar de adaptar una entrega concreta del videojuego.
+
+---
+
+**Conclusión:** las mecánicas del juego de mesa Diablo Unbound combinan un motor de construcción de mazos, combate impulsado por dados, árboles de habilidades específicos de cada clase, una Fase de Pueblo que permite reasignar puntos y un endgame de Tormento en un bucle que se lee como una fiel traducción a la mesa de un RPG hack-and-slash. Si buscas la capa estratégica más profunda de un juego de campaña sin perder el drama de las tiradas de dados de un batallador de jefes, este es un lanzamiento de 2027 que merece la pena seguir.
