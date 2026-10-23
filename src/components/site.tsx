@@ -11,6 +11,8 @@ import { CollapsibleNavGroup } from "@/components/collapsible-nav-group";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { ClientThemeToggle } from "@/components/theme-toggle";
 
+const GAME_NAME = "Diablo Unbound";
+
 export function localizeHref(href: string, locale: string) {
   return `/${locale}${href === "/" ? "" : href}`;
 }
@@ -20,10 +22,10 @@ export async function SiteHeader({ locale }: { locale: string }) {
   const header = (
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
-        <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border bg-muted shadow-sm">
-          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" />
+        <div className="grid h-9 w-9 place-items-center overflow-hidden rounded-xl border border-[hsl(var(--nav-theme)/0.45)] bg-[hsl(var(--nav-theme))] text-sm font-black text-primary-foreground shadow-sm" aria-hidden="true">
+          D
         </div>
-        <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.name}</span>
+        <span className="text-sm font-bold tracking-wide text-foreground">{GAME_NAME}</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
         {NAVIGATION_CONFIG.map((item) => (
@@ -71,11 +73,11 @@ export async function SiteFooter({ locale }: { locale: string }) {
 
 function FooterList({ locale, title, links }: { locale: string; title: string; links: string[][] }) { return <div><h4 className="font-semibold text-foreground">{title}</h4><ul className="mt-3 space-y-2 text-sm text-muted-foreground">{links.map(([label, href]) => <li key={href}><Link className="hover:text-foreground" href={href.startsWith("/") ? localizeHref(href, locale) : href}>{label}</Link></li>)}</ul></div>; }
 
-export function TrailerCard({ videoId }: { videoId: string }) {
+export function TrailerCard() {
   return (
     <div className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border shadow-lg transition-all duration-200">
       <div className="relative aspect-video w-full">
-        <img src={videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "/images/hero.webp"} alt={siteConfig.name} className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
+        <img src="/images/hero-trailer-thumbnail.jpg" alt="Diablo Unbound Official Trailer" className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex size-20 items-center justify-center rounded-full bg-primary/10 backdrop-blur-md transition-transform duration-200 group-hover:scale-105 sm:size-24">
@@ -104,7 +106,7 @@ export function TrailerButton({ videoId }: { videoId: string }) {
   return (
     <>
       <button type="button" className="w-full" aria-haspopup="dialog" onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; const f = document.getElementById("trailer-iframe") as HTMLIFrameElement; f.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`; d.showModal(); d.classList.remove("opacity-0", "pointer-events-none"); d.classList.add("opacity-100", "pointer-events-auto"); }}>
-        <TrailerCard videoId={videoId} />
+        <TrailerCard />
       </button>
       <TrailerDialog videoId={videoId} />
     </>
