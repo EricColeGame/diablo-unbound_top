@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Diablo Unbound Wiki — Classes, Gameplay, Loot & Gamefound Updates",
+      "description": "Explore Diablo Unbound with guides to character classes, tabletop combat, loot, bosses, campaign structure, and the Q1 2027 Gamefound launch."
     },
     "hero": {
       "eyebrow": "Cooperative Dark Fantasy Board Game",
@@ -34,27 +34,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Diablo Unbound Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Start with the core loop: choose a hero, build the dungeon, resolve combat, and carry loot into the boss fight."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Choose Your Class",
+          "description": "Compare the Barbarian, Rogue, Sorceress, and Paladin by combat role, resource style, and party fit."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Plan Your Progression",
+          "description": "Understand skill trees, gear upgrades, and Town Phase respec choices before the next dungeon."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Learn Combat Basics",
+          "description": "Use focused fire, defensive timing, and resource discipline to reach each act boss ready to fight."
         }
       ]
     },
@@ -62,265 +62,335 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Class Roles",
+        "Dungeon Loop",
+        "Loot Priorities"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Diablo Unbound Beginner Guide",
+          "description": "Start with setup, turn flow, class selection, and the first-session habits that keep a campaign moving.",
+          "href": "/guide/diablo-unbound-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Classes",
+          "title": "Character Classes",
+          "description": "Compare the four announced heroes and the party roles they bring to a cooperative table.",
+          "href": "/characters/diablo-unbound-character-classes"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Rules",
+          "title": "How to Play",
+          "description": "Follow the explore, fight, loot, and boss loop from table setup through the final encounter.",
+          "href": "/guide/diablo-unbound-how-to-play"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Mechanics",
+          "title": "Board Game Mechanics",
+          "description": "See how deckbuilding, dice rolls, skill trees, Town Phases, and risk-reward loot fit together.",
+          "href": "/mechanics/diablo-unbound-board-game-mechanics"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Loot",
+          "title": "Loot System",
+          "description": "Learn rarity tiers, affix priorities, and target-farming habits that turn drops into build power.",
+          "href": "/items/diablo-unbound-loot-system"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Combat",
+          "title": "Combat System",
+          "description": "Plan engagement, resource spikes, elite packs, and boss phases without losing the table tempo.",
+          "href": "/mechanics/diablo-unbound-combat-system"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Co-op",
+          "title": "Cooperative Mode",
+          "description": "Set up a 1–4 player party, divide table jobs, and keep loot decisions clear between rounds.",
+          "href": "/modes/diablo-unbound-cooperative-mode"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Release",
+          "title": "Release Date",
+          "description": "Track official announcements, the Q1 2027 Gamefound campaign, and launch timing.",
+          "href": "/release/diablo-unbound-release-date"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Buying",
+          "title": "Preorder Guide",
+          "description": "Compare editions, verify official listings, and understand what each pledge includes.",
+          "href": "/release/diablo-unbound-preorder"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What Is Diablo Unbound?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Diablo Unbound is an officially licensed cooperative tabletop dungeon battler developed by Glass Cannon Unplugged with Blizzard Entertainment. One to four players choose a hero, assemble a modular dungeon from tiles, monster families, and bosses, then work through a three-act campaign built for repeatable encounters.",
+        "Each dungeon follows an explore, fight, loot, and boss rhythm. Class decks and skill trees shape what a champion can do, randomized gear carries power from one level to the next, and Town Phases provide upgrades and respec decisions. The campaign spans nine dungeon levels, with Torment endgame battles following the main story and a Gamefound campaign planned for Q1 2027."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Players",
+          "value": "1–4"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Classes",
+          "value": "4"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Campaign Dungeons",
+          "value": "9"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Acts",
+          "value": "3"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Format",
+          "value": "Tabletop"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Gamefound",
+          "value": "Q1 2027"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Diablo Unbound Wiki",
+      "description": "Browse eight focused guides covering the beginner loop, classes, combat, loot, bosses, Torment, and the road to Gamefound.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Diablo Unbound Beginner Guide",
+          "description": "Learn the table setup, turn flow, solo play, and three-act campaign structure before your first session.",
+          "href": "/guide/diablo-unbound-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Choose a class, prepare the dungeon tiles, and set up the shared loot and boss decks."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Learn the explore, fight, loot, and boss rhythm before adding campaign complexity."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Assign table roles so monster activation, loot draws, and act tracking stay clear."
+            },
+            {
+              "label": "4",
+              "detail": "Run one act as a tutorial, then continue into the full three-act campaign."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Diablo Unbound Classes Guide",
+          "description": "Compare the Barbarian, Rogue, Sorceress, and Paladin, including their skill trees, party roles, and progression paths.",
+          "href": "/characters/diablo-unbound-character-classes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Barbarian",
+              "detail": "Frontline bruiser with a durable melee kit and monster-control pressure."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Rogue",
+              "detail": "Agile weapon specialist built for precision, burst damage, and repositioning."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Sorceress",
+              "detail": "Elemental caster who clears groups and controls crowded dungeon fights."
+            },
+            {
+              "label": "Paladin",
+              "detail": "Holy warrior with durability and party support tools for longer runs."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Diablo Unbound Gameplay Guide",
+          "description": "Follow the explore, fight, loot, and boss loop through modular dungeons, monster families, and town phases.",
+          "href": "/guide/diablo-unbound-how-to-play",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Pick the class lineup, dungeon, monster families, and boss before staging the table."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Build only the current act and keep monster decks sorted for quick activation."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Focus fire one group at a time and spend resources on the current threat."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Use Town Phases to upgrade skills, sort loot, and respec before the next descent."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Diablo Unbound Skills and Builds",
+          "description": "Plan skill trees, gear synergies, and respec choices that keep a champion effective from the first dungeon to Torment.",
+          "href": "/characters/diablo-unbound-character-builds",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Core damage engine — concentrate skill and gear choices on one reliable way to clear enemies."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Survival layer — add mobility or damage reduction before the act boss tests the party."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Resource loop — pair generators with spenders so champions keep acting through long fights."
+            },
+            {
+              "label": "C",
+              "detail": "Town tuning — use upgrades and respec to fix weak slots before the next descent."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Diablo Unbound Loot and Equipment",
+          "description": "Understand equipment slots, rarity tiers, affix priorities, and the loot decisions that carry power through a run.",
+          "href": "/items/diablo-unbound-loot-system",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Slots",
+              "detail": "Prioritize weapons and jewelry for damage, armor for survival, and boots for mobility."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Rarity",
+              "detail": "Inspect affixes before rarity; a well-rolled rare can outperform a poor legendary."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Affixes",
+              "detail": "Match rolls to the champion main skill, resource loop, and defensive gaps."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Upgrade the weapon first when damage stalls and armor first when deaths climb."
+            },
+            {
+              "label": "Salvage",
+              "detail": "Keep comparison pieces for each slot and salvage spare gear no build can use."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Diablo Unbound Bosses and Monsters",
+          "description": "Prepare for monster waves, elite packs, and act bosses with role-based tactics and resource discipline.",
+          "href": "/mechanics/diablo-unbound-combat-system",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Hordes",
+              "detail": "Clear monster groups efficiently; focused fire prevents the board from flooding."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Elites",
+              "detail": "Read affixes as tactical puzzles and reposition before pressure compounds."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Bosses",
+              "detail": "Save a defensive answer and a burst window for the final encounter of each act."
+            },
+            {
+              "label": "Families",
+              "detail": "Check monster-family synergies before engaging so the party can plan counters."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Diablo Unbound Torment Mode",
+          "description": "Build a Torment party around fully geared champions and face any boss in its ultimate form.",
+          "href": "/modes/diablo-unbound-campaign-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Campaign",
+              "detail": "Complete three acts and nine dungeon levels to build a fully geared party."
+            },
+            {
+              "label": "Torment",
+              "detail": "Face any boss in its ultimate form with champions tuned for endgame pressure."
+            },
+            {
+              "label": "Roles",
+              "detail": "Cover frontline, area damage, single-target burst, and support before the rematch."
+            },
+            {
+              "label": "Planning",
+              "detail": "Plan resource spikes and defensive tools around the boss escalation phases."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Diablo Unbound Release Date and Updates",
+          "description": "Track the Q1 2027 Gamefound campaign, official announcements, gameplay reveals, and expansion news.",
+          "href": "/release/diablo-unbound-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Q1 2027",
+              "detail": "Crowdfunding window announced for the Gamefound campaign."
+            },
+            {
+              "label": "Gamefound",
+              "detail": "Follow the pre-launch page for pledge tiers, stretch goals, and campaign dates."
+            },
+            {
+              "label": "Spiel 2026",
+              "detail": "The tabletop project was revealed at Spiel Essen in October 2026."
+            },
+            {
+              "label": "Expansions",
+              "detail": "Additional classes and content are planned through stretch goals and future expansions."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Diablo Unbound FAQ",
+      "description": "Answers to common questions about Diablo Unbound, its tabletop campaign, and the Gamefound launch.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Diablo Unbound?",
+          "answer": "Diablo Unbound is an officially licensed cooperative tabletop dungeon battler from Glass Cannon Unplugged and Blizzard Entertainment. It supports one to four players and combines class decks, dice-driven combat, modular dungeons, loot, and boss battles."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How many players can play Diablo Unbound?",
+          "answer": "Diablo Unbound supports one to four players in fully cooperative play. Solo games use the same class and encounter systems, while larger parties divide frontline, damage, control, and support jobs."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which classes are available in Diablo Unbound?",
+          "answer": "The announced starting roster includes the Barbarian, Rogue, Sorceress, and Paladin. Each class has its own skill tree, ability set, and progression path, with more classes planned through stretch goals and expansions."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How long is a Diablo Unbound campaign?",
+          "answer": "The main campaign spans three acts, each containing three dungeon levels and a boss. A single dungeon is designed to run about 60 to 90 minutes, with Town Phases between descents for upgrades, loot sorting, and respec decisions."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "When is the Diablo Unbound Gamefound campaign?",
+          "answer": "The Diablo Unbound Gamefound campaign is planned for Q1 2027. The official Glass Cannon Unplugged project page and Gamefound pre-launch page are the places to follow for campaign dates, pledge details, and stretch goals."
         }
       ]
     },
